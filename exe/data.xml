@@ -1,0 +1,22 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Armaster\Documents\NetBeansProjects\Sibenice\dist\Sibenice.jar</jar>
+  <outfile>C:\Users\Armaster\Documents\NetBeansProjects\Sibenice\exe\Šibenice.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Users\Armaster\Documents\NetBeansProjects\Sibenice\exe\sib_logo-2.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.0.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+</launch4jConfig>

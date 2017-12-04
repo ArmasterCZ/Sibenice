@@ -1,0 +1,6 @@
+//napoveda (true-false)
+true
+//delka slov (5-99)
+12
+//pocet zivotu (1-8)
+8

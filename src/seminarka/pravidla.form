@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="1" pref="498" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="120" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="250" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x160;ibenice je hra pro jednoho hr&#xe1;&#x10d;e. Ten se sna&#x17e;&#xed; uh&#xe1;dnout p&#xed;smena obsa&#x17e;en&#xe1; v dan&#xe9;m slov&#x11b;. Za ka&#x17e;d&#xfd; chybn&#xfd; pokus se postav&#xed; &#x10d;&#xe1;st &#x161;ibenice. &#xa;Hr&#xe1;&#x10d; vyhr&#xe1;v&#xe1; ve chv&#xed;li kdy v dan&#xe9;m slov&#x11b; uh&#xe1;dne v&#x161;echna p&#xed;smena. Pokud je v&#x161;ak &#x161;ibenice dokon&#x10d;en&#xe1; d&#x159;&#xed;ve ne&#x17e; jsou ve slov&#x11b; uh&#xe1;dnuta v&#x161;echna p&#xed;smena, hr&#xe1;&#x10d; prohr&#xe1;v&#xe1;.&#xa;H&#xe1;dan&#xe9; p&#xed;smeno se zad&#xe1;v&#xe1; do doln&#xed;ho pole a pokud je ve slov&#x11b; obsa&#x17e;eno automaticky se dopln&#xed; na v&#x161;echny spr&#xe1;vn&#xe9; pozice.&#xa;&#xa;- Syst&#xe9;m rozli&#x161;uje velk&#xe1; a mal&#xe1; p&#xed;smena, stejn&#x11b; jako h&#xe1;&#x10d;ky, &#x10d;&#xe1;rky a krou&#x17e;ky. &#xa;- P&#xed;smeno&quot;ch&quot; je ve slovech br&#xe1;no jako dv&#x11b; p&#xed;smena. Proto je nutn&#xe9; jej zad&#xe1;vat jako p&#xed;smena &quot;C&quot; a &quot;H&quot;.&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="autoscrolls" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pravidla"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
